@@ -1,0 +1,19 @@
+# Ignore the huge local dependencies
+node_modules/
+
+# Ignore the AI model files
+*.gguf
+model.gguf
+
+# Ignore system/build folders
+.expo/
+android/
+ios/
+bin/
+
+# Ignore logs and temp files
+*.log
+npm-debug.log*
+node_modules/
+*.gguf
+.git/
